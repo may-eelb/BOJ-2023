@@ -2,7 +2,7 @@ from sys import stdin
 input = stdin.readline
 
 
-# 슬라이딩 윈도우
+# 투포인터
 n = int(input())
 m = int(input())
 my_list = list(map(int, input().split()))
